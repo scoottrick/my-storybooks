@@ -1,15 +1,8 @@
-
 # Storybook sandboxes of all kinds
-
-  
 
 Storybook: https://storybook.js.org/
 
-  
-
 ### Current projects
-
-  
 
 Angular
 
@@ -21,6 +14,19 @@ yarn install
 yarn start
 
 # to run Angular Storybook
+yarn storybook
+```
+
+React
+
+```
+cd react-stories
+yarn install
+
+# to run React app
+yarn start
+
+# to run React Storybook
 yarn storybook
 ```
 
@@ -38,7 +44,7 @@ yarn storybook
 ```
 
 Created with:
-  
+
 ```
 yarn -v
 1.22.19
