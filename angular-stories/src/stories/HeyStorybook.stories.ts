@@ -6,6 +6,12 @@ export default {
   component: HeyStorybookComponent,
 } as Meta;
 
-export const Example: Story = () => ({
-  props: {},
-});
+const Template: Story = args => ({ props: args });
+
+export const Standard = Template.bind({});
+
+export const Guy = Template.bind({});
+Guy.args = { name: 'guy' };
+
+export const Fwen = Template.bind({});
+Fwen.args = { name: 'fwen' };
