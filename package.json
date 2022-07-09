@@ -1,0 +1,8 @@
+{
+  "name": "my-storybooks",
+  "version": "1.0.0",
+  "description": "storybooks sandbox for everything",
+  "main": "index.js",
+  "author": "Scott <csschapker94@gmail.com>",
+  "license": "MIT"
+}
